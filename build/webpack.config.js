@@ -192,7 +192,7 @@ module.exports = {
       filename: './index.html',
       template: './src/index.html.ejs',
       externalCSS: ['components/loader.css'],
-      externalJS: ['components/loader.js'],
+      externalJS: ['cordova.js', 'components/loader.js'],
       inject: true,
       minify: env === 'production' ? {
         collapseWhitespace: true,
